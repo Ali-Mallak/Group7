@@ -1,0 +1,152 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-size: 1.15rem;
+}
+body {
+  background-color: rgb(189, 92, 168);
+}
+/* nav bar */
+nav {
+  background-color: #f8b100;
+}
+.icon-header,
+ul {
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.icon-header {
+  justify-content: space-between;
+}
+.list-icon-header1,
+.list-icon-header2 li {
+  margin: 0.5rem 1.3rem;
+  padding: 5px;
+}
+.list-icon-header1 i {
+  margin-left: 7px;
+}
+
+.list-icon-header1 {
+  border: 3px solid black;
+  border-radius: 7px;
+  padding: 5px;
+}
+.list-icon-header1 a {
+  font-weight: bold;
+  text-decoration: none;
+}
+.list-icon-header2 :hover {
+  cursor: pointer;
+}
+/* photo-header */
+.photo-heder {
+  transform: scaleY(95%);
+}
+.img-head {
+  width: 100%;
+}
+.paragraph {
+  border-bottom: 3px solid black;
+  text-align: right;
+  padding: 0rem 1.5rem 0.5rem 0rem;
+  margin: 0rem 1.5rem;
+  font-weight: bold;
+}
+/* section */
+.sec {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.sec-card {
+  position: relative;
+  background-color: aqua;
+  border-radius: 0.3rem;
+  text-align: center;
+  min-width: 17rem;
+  margin: 2rem 0.5rem;
+}
+.sec-card img {
+  border-radius: 0.3rem;
+  width: 278px;
+  height: 250px;
+  margin-top: 2.5rem;
+}
+.star {
+  color: #f8b100;
+  position: absolute;
+  text-align: left;
+  top: 3px;
+  left: 5px;
+}
+.vip {
+  position: absolute;
+  right: 5px;
+  top: 3px;
+  background-color: rgb(224, 45, 45);
+  padding: 0.2rem;
+  border-radius: 5px;
+}
+.foot-card {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon-card {
+  text-align: left;
+}
+.icon-card i {
+  margin: 0.6rem 0px 0.6rem 0.6rem;
+  background-color: crimson;
+  padding: 6px;
+  border-radius: 0.7rem;
+  cursor: pointer;
+}
+.icon-card :hover {
+  position: relative;
+  padding-right: 3.2rem;
+  animation: move 1s ease-in-out;
+}
+@keyframes move {
+  0% {
+    padding-right: 0rem;
+  }
+  100% {
+    padding-right: 3.2rem;
+  }
+}
+#s {
+  display: none;
+}
+.price {
+  margin-right: 0.9rem;
+}
+/* footer site */
+.footer {
+  background-color: rgb(42, 204, 169);
+  color: black;
+  padding: 2rem 2rem 0rem;
+  text-align: right;
+  direction: rtl;
+}
+.social-media a {
+  padding: 0.5rem 0.5rem;
+}
+.social-media i {
+  font-size: 2rem;
+  color: #bf2852;
+}
+.copyright {
+  background-color: rgb(75, 75, 75);
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 1rem;
+}
