@@ -7,7 +7,7 @@
   font-size: 1.15rem;
 }
 body {
-  background-color: rgb(189, 92, 168);
+  background-color: rgb(215 121 14);
 }
 /* nav bar */
 nav {
@@ -88,7 +88,7 @@ ul {
   position: absolute;
   right: 5px;
   top: 3px;
-  background-color: rgb(224, 45, 45);
+  background-color: rgb(239 45 45);
   padding: 0.2rem;
   border-radius: 5px;
 }
@@ -139,9 +139,20 @@ ul {
 .social-media a {
   padding: 0.5rem 0.5rem;
 }
-.social-media i {
+.social-media i{
   font-size: 2rem;
-  color: #bf2852;
+}
+.social-media #one{
+  color: #0c63bd;
+}
+.social-media #two{
+  color: #ff5402;
+}
+.social-media #three{
+  color: #044d64;
+}
+.social-media #four{
+  color: #039103;
 }
 .copyright {
   background-color: rgb(75, 75, 75);
